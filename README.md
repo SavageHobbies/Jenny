@@ -1,6 +1,6 @@
-# 🌐 Cybersence Navigator – Your AI-Powered Desktop Sidekick 🚀
+Jenny Your AI-Powered Desktop Sidekick 🚀
 
-**Cybersence Navigator** is an intelligent AI desktop assistant that fuses the convenience of voice-command automation with the conversational prowess of a chatbot. Designed to streamline your digital experience, Cybersense Navigator listens, understands, and acts — all with a simple voice prompt or text query.
+Jenny is an intelligent AI desktop assistant that fuses the convenience of voice-command automation with the conversational prowess of a chatbot. Designed to streamline your digital experience, Cybersense Navigator listens, understands, and acts — all with a simple voice prompt or text query.
 
 ## ✨ What It Does
 
@@ -43,7 +43,7 @@ Think of it as **Jarvis, but for your desktop**. Cybersense Navigator isn't just
 
 ---
 
-**Cybersence Navigator** makes your desktop experience smarter, smoother, and more human.
+Jenny makes your desktop experience smarter, smoother, and more human.
 Step into the future — hands-free, hassle-free. 🌟
 
 > 🧠 *Navigate your world, the smart way.*
