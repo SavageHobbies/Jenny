@@ -1,54 +1,51 @@
-Jenny Your AI-Powered Desktop Sidekick 🚀
+# My Simple Assistant
 
-Jenny is an intelligent AI desktop assistant that fuses the convenience of voice-command automation with the conversational prowess of a chatbot. Designed to streamline your digital experience, Cybersense Navigator listens, understands, and acts — all with a simple voice prompt or text query.
+This is a simple command-line assistant that can perform basic tasks using voice commands and provides spoken responses.
 
-## ✨ What It Does
+## Dependencies
 
-Think of it as **Jarvis, but for your desktop**. Cybersense Navigator isn't just a chatbot; it's your personal productivity companion. Here's what it can do:
+This assistant relies on the following Python libraries:
 
-* 🎙️ **Voice-Activated Controls**: Open apps, files, or websites with a single spoken command.
-* 💬 **Conversational AI**: Chat with a responsive assistant that understands your queries in natural language.
-* 🖥️ **Desktop Automation**: Automate routine tasks — from sending emails to setting reminders — hands-free.
-* 🔍 **Context-Aware Assistance**: Cybersense learns and adapts to provide smarter suggestions over time.
+- `SpeechRecognition`: For recognizing voice commands.
+- `pyttsx3`: For text-to-speech output.
 
-## 🔧 Built With
+These will be installed automatically when you run:
+```bash
+pip install -r requirements.txt
+```
 
-* **Python** – Core logic and assistant orchestration
-* **SpeechRecognition + pyttsx3** – For real-time voice interaction
-* **NLTK / OpenAI GPT API** – Powers the chatbot and natural language understanding
-* **PyAutoGUI / OS libraries** – Enables automation and system control
-* **Tkinter (optional)** – For a simple GUI front-end interface
+**System Dependencies:**
+- **Microphone Input (`SpeechRecognition` via `PyAudio`):** You may need to install system libraries for `PyAudio` (which `SpeechRecognition` uses for microphone access). On Debian/Ubuntu, this is typically `portaudio19-dev`.
+  ```bash
+  sudo apt-get install portaudio19-dev 
+  ```
+- **Text-to-Speech (`pyttsx3`):** `pyttsx3` may require a TTS engine to be installed on your system. For Linux, `espeak` is a common option.
+  ```bash
+  sudo apt-get install espeak
+  ```
+  Other operating systems might have different requirements or pre-installed TTS engines.
 
-## 🌟 Why It Stands Out
+## How to Run
 
-* ✅ Seamless voice-to-action functionality
-* ✅ Integrated AI chat module for human-like conversations
-* ✅ Lightweight and easy to run on most desktop environments
-* ✅ Modular code for easy customization or extension
+**Hardware Requirements:**
+- A working microphone is required for voice input.
+- Speakers or headphones are required for voice output.
 
-> 💡 Tip: Make sure your mic is working and permissions are enabled for voice input!
+**Running the Assistant:**
+1. Ensure you have installed the dependencies as mentioned above (both Python and system).
+2. Execute the following command in your terminal:
 
-## 🧠 Use Case Scenarios
+```bash
+python assistant.py
+```
+The assistant will then be listening for your voice commands.
 
-* Students managing lectures, notes, and browsers
-* Professionals scheduling meetings or quickly accessing tools
-* Techies automating workflows and experimenting with AI
+## Available Commands
 
-## 📈 Future Enhancements
+The assistant understands the following voice commands:
 
-* 🗂️ File management via voice
-* 🕵️‍♂️ Contextual memory and personalization
-* 🌐 Web scraping assistant mode
-* 📅 Smart calendar integration
+- `"hello"`: Greets the user.
+- `"time"`: Displays and speaks the current date and time.
+- `"exit"` or `"quit"`: Exits the assistant.
 
----
-
-Jenny makes your desktop experience smarter, smoother, and more human.
-Step into the future — hands-free, hassle-free. 🌟
-
-> 🧠 *Navigate your world, the smart way.*
-
----
-
-Let me know if you'd like it adapted for a GitHub page, portfolio, or presentation slide!
-# Jenny
+Simply say the command when the assistant is listening.
